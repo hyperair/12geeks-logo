@@ -17,7 +17,7 @@ module base () {
         for (corner=[
                 [corner_radius, corner_radius],
                 [target_width - corner_radius, corner_radius],
-                [corner_radius, target_height],
+                [corner_radius, target_height - corner_radius],
                 [target_width - corner_radius, target_height - corner_radius]
             ])
         translate ([corner[0], corner[1], 0])
