@@ -2,7 +2,7 @@ INKSCAPEDIR = /usr/share/inkscape/extensions/
 DXF_OUTLINES = $(INKSCAPEDIR)/dxf_outlines.py
 OPENSCAD = openscad
 
-SCADFILES = hsgbanner.scad hsgbanner-base.scad hsgbanner-fg.scad
+SCADFILES = 12geeks-logo.scad
 STLFILES = $(SCADFILES:.scad=.stl)
 DEPFILES = $(addsuffix deps,$(SCADFILES))
 
