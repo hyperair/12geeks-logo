@@ -1,5 +1,3 @@
-use <ruler.scad>
-
 dxf_height = 66.04;
 dxf_width = 66.04;
 text_height = 5;
